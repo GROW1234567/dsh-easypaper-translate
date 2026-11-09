@@ -1,0 +1,21 @@
+# 运行产物
+work/
+work*/
+*.pdf
+!docs/*.pdf
+
+# 依赖（运行时由 paper_translate_env install 下载，不入库）
+.pylibs/
+.tmp/
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
