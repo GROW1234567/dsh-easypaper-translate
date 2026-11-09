@@ -1,0 +1,31 @@
+{
+  "name": "dsh-easypaper-translate",
+  "displayName": "简易论文翻译 · dsh-easypaper-translate",
+  "version": "0.2.0",
+  "description": "简易论文翻译：个人开发的 DSH 插件，把英文论文做成中英对照 PDF（奇数页原文、偶数页中文），正文/表格/图内文字原位替换，本地渲染。仅提供工具，不含任何论文或译本；内容使用权与合规由使用者自负。",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js",
+    "python/*.py",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "pdf",
+    "translation",
+    "academic"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-tools": "*"
+  }
+}

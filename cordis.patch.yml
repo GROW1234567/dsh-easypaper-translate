@@ -1,0 +1,4 @@
+# Bundle patch layer: load this package's main entry as the host half.
+- insert:
+    - id: easypaper-translate
+      name: dsh-easypaper-translate
