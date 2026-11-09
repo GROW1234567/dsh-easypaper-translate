@@ -19,16 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
---------------------------------------------------------------------------------
-
-Third-party runtime dependencies (NOT redistributed with this repository; the
-plugin downloads them on demand via `paper_translate_env install`):
-
-  PyMuPDF  — AGPL-3.0 (or commercial licence from Artifex)
-  SciPy    — BSD-3-Clause
-  PyYAML   — MIT
-
-If you redistribute a bundle that CONTAINS PyMuPDF, the AGPL-3.0 obligations
-apply to that bundle. This repository only references it as a runtime
-dependency, which is why it is not vendored here.
